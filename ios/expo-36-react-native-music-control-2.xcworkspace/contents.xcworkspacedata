@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:expo-36-react-native-music-control-2.xcodeproj">
+      location = "group:expo-36-react-native-music-control.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">

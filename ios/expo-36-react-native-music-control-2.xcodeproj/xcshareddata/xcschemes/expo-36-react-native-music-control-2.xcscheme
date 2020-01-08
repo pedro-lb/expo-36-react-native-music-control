@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "B56386401DB9693800A0598C"
-               BuildableName = "expo-36-react-native-music-control-2.app"
-               BlueprintName = "expo-36-react-native-music-control-2"
-               ReferencedContainer = "container:expo-36-react-native-music-control-2.xcodeproj">
+               BuildableName = "expo-36-react-native-music-control.app"
+               BlueprintName = "expo-36-react-native-music-control"
+               ReferencedContainer = "container:expo-36-react-native-music-control.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -34,9 +34,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B56386401DB9693800A0598C"
-            BuildableName = "expo-36-react-native-music-control-2.app"
-            BlueprintName = "expo-36-react-native-music-control-2"
-            ReferencedContainer = "container:expo-36-react-native-music-control-2.xcodeproj">
+            BuildableName = "expo-36-react-native-music-control.app"
+            BlueprintName = "expo-36-react-native-music-control"
+            ReferencedContainer = "container:expo-36-react-native-music-control.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -58,9 +58,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B56386401DB9693800A0598C"
-            BuildableName = "expo-36-react-native-music-control-2.app"
-            BlueprintName = "expo-36-react-native-music-control-2"
-            ReferencedContainer = "container:expo-36-react-native-music-control-2.xcodeproj">
+            BuildableName = "expo-36-react-native-music-control.app"
+            BlueprintName = "expo-36-react-native-music-control"
+            ReferencedContainer = "container:expo-36-react-native-music-control.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <EnvironmentVariables>
@@ -84,9 +84,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B56386401DB9693800A0598C"
-            BuildableName = "expo-36-react-native-music-control-2.app"
-            BlueprintName = "expo-36-react-native-music-control-2"
-            ReferencedContainer = "container:expo-36-react-native-music-control-2.xcodeproj">
+            BuildableName = "expo-36-react-native-music-control.app"
+            BlueprintName = "expo-36-react-native-music-control"
+            ReferencedContainer = "container:expo-36-react-native-music-control.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

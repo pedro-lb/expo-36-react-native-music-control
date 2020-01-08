@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "expo-36-react-native-music-control-2",
-    "slug": "expo-36-react-native-music-control-2",
+    "name": "expo-36-react-native-music-control",
+    "slug": "expo-36-react-native-music-control",
     "privacy": "public",
     "sdkVersion": "36.0.0",
     "platforms": [
@@ -26,8 +26,8 @@
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "expo36",
-      "publishBundlePath": "ios/expo-36-react-native-music-control-2/Supporting/shell-app.bundle",
-      "publishManifestPath": "ios/expo-36-react-native-music-control-2/Supporting/shell-app-manifest.json"
+      "publishBundlePath": "ios/expo-36-react-native-music-control/Supporting/shell-app.bundle",
+      "publishManifestPath": "ios/expo-36-react-native-music-control/Supporting/shell-app-manifest.json"
     },
     "isDetached": true,
     "detach": {

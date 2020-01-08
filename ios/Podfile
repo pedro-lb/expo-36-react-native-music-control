@@ -3,7 +3,7 @@ platform :ios, '10.0'
 
 require_relative '../node_modules/@react-native-community/cli-platform-ios/native_modules'
 
-target 'expo-36-react-native-music-control-2' do
+target 'expo-36-react-native-music-control' do
   pod 'ExpoKit',
     :git => "http://github.com/expo/expo.git",
     :tag => "ios/2.14.2",

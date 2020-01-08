@@ -7,7 +7,7 @@
 	<key>isShell</key>
 	<true/>
 	<key>manifestUrl</key>
-	<string>exp://exp.host/@pedrobini/expo-36-react-native-music-control-2</string>
+	<string>exp://exp.host/@pedrobini/expo-36-react-native-music-control</string>
 	<key>releaseChannel</key>
 	<string>default</string>
 </dict>

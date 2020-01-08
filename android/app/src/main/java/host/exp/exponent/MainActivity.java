@@ -15,7 +15,7 @@ public class MainActivity extends DetachActivity {
 
   @Override
   public String publishedUrl() {
-    return "exp://exp.host/@pedrobini/expo-36-react-native-music-control-2";
+    return "exp://exp.host/@pedrobini/expo-36-react-native-music-control";
   }
 
   @Override

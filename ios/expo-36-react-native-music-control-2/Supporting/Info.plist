@@ -5,7 +5,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
-	<string>expo-36-react-native-music-control-2</string>
+	<string>expo-36-react-native-music-control</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -13,7 +13,7 @@
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>expo-36-react-native-music-control-2</string>
+	<string>expo-36-react-native-music-control</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
@@ -69,23 +69,23 @@
 		<true/>
 	</dict>
 	<key>NSCalendarsUsageDescription</key>
-	<string>Allow expo-36-react-native-music-control-2 to access your calendar</string>
+	<string>Allow expo-36-react-native-music-control to access your calendar</string>
 	<key>NSCameraUsageDescription</key>
-	<string>Allow expo-36-react-native-music-control-2 to use your camera</string>
+	<string>Allow expo-36-react-native-music-control to use your camera</string>
 	<key>NSContactsUsageDescription</key>
-	<string>Allow expo-36-react-native-music-control-2 to access your contacts</string>
+	<string>Allow expo-36-react-native-music-control to access your contacts</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>Allow expo-36-react-native-music-control-2 to use your location</string>
+	<string>Allow expo-36-react-native-music-control to use your location</string>
 	<key>NSMicrophoneUsageDescription</key>
-	<string>Allow expo-36-react-native-music-control-2 to access your microphone</string>
+	<string>Allow expo-36-react-native-music-control to access your microphone</string>
 	<key>NSMotionUsageDescription</key>
-	<string>Allow expo-36-react-native-music-control-2 to access your device's accelerometer</string>
+	<string>Allow expo-36-react-native-music-control to access your device's accelerometer</string>
 	<key>NSPhotoLibraryAddUsageDescription</key>
-	<string>Give expo-36-react-native-music-control-2 permission to save photos</string>
+	<string>Give expo-36-react-native-music-control permission to save photos</string>
 	<key>NSPhotoLibraryUsageDescription</key>
-	<string>Give expo-36-react-native-music-control-2 permission to access your photos</string>
+	<string>Give expo-36-react-native-music-control permission to access your photos</string>
 	<key>NSRemindersUsageDescription</key>
-	<string>Allow expo-36-react-native-music-control-2 to access your reminders</string>
+	<string>Allow expo-36-react-native-music-control to access your reminders</string>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIRequiredDeviceCapabilities</key>
