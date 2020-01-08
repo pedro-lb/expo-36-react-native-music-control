@@ -73,7 +73,12 @@ android {
     abortOnError false
   }
   packagingOptions {
-    pickFirst "**"
+    pickFirst '**/armeabi-v7a/libc++_shared.so'
+    pickFirst '**/x86/libc++_shared.so'
+    pickFirst '**/arm64-v8a/libc++_shared.so'
+    pickFirst '**/x86_64/libc++_shared.so'
+    pickFirst '**/x86/libjsc.so'
+    pickFirst '**/armeabi-v7a/libjsc.so'
   }
 }
 
@@ -172,22 +177,22 @@ dependencies {
   testImplementation 'junit:junit:4.12'
   testImplementation 'org.mockito:mockito-core:1.10.19'
 
-  
+
   implementation('host.exp.exponent:expoview:36.0.0@aar') {
     transitive = true
     exclude group: 'com.squareup.okhttp3', module: 'okhttp'
     exclude group: 'com.squareup.okhttp3', module: 'okhttp-urlconnection'
   }
-  
 
 
-  
+
+
   api 'org.webkit:android-jsc:r245459' // needs to be before react-native
-  api 'com.facebook.react:react-native:33.0.0'
-  
+  api 'com.facebook.react:react-native:36.0.0'
 
 
-  
+
+
   addUnimodulesDependencies([
       modulesPaths : [
         '../../node_modules'
@@ -203,8 +208,10 @@ dependencies {
         // from auto-generated BasePackageList.java
       ]
   ])
-  
+
 }
 
 // This has to be down here for some reason
 apply plugin: 'com.google.gms.google-services'
+
+apply from: file("../../node_modules/@react-native-community/cli-platform-android/native_modules.gradle"); applyNativeModulesAppBuildGradle(project)

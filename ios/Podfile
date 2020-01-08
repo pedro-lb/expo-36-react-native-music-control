@@ -1,6 +1,8 @@
 source 'https://github.com/CocoaPods/Specs.git'
 platform :ios, '10.0'
 
+require_relative '../node_modules/@react-native-community/cli-platform-ios/native_modules'
+
 target 'expo-36-react-native-music-control-2' do
   pod 'ExpoKit',
     :git => "http://github.com/expo/expo.git",
@@ -36,11 +38,11 @@ target 'expo-36-react-native-music-control-2' do
         target_installation_result.native_target.build_configurations.each do |config|
           config.build_settings['GCC_PREPROCESSOR_DEFINITIONS'] ||= ['$(inherited)']
           config.build_settings['GCC_PREPROCESSOR_DEFINITIONS'] << 'EX_DETACHED=1'
-          
+
           # Enable Google Maps support
           config.build_settings['GCC_PREPROCESSOR_DEFINITIONS'] << 'HAVE_GOOGLE_MAPS=1'
           config.build_settings['GCC_PREPROCESSOR_DEFINITIONS'] << 'HAVE_GOOGLE_MAPS_UTILS=1'
-          
+
         end
       end
 
