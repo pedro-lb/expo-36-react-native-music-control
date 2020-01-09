@@ -27,6 +27,9 @@ target 'expo-36-react-native-music-control' do
  require_relative '../node_modules/react-native/scripts/autolink-ios.rb'
  use_react_native!
 
+ require_relative '../node_modules/@react-native-community/cli-platform-ios/native_modules'
+ use_native_modules!
+
   post_install do |installer|
     installer.pods_project.main_group.tab_width = '2';
     installer.pods_project.main_group.indent_width = '2';
