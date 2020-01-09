@@ -1,7 +1,7 @@
 {
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
-    "android": "npx jetify && react-native run-android",
+    "android": "react-native run-android",
     "ios": "react-native run-ios"
   },
   "dependencies": {
