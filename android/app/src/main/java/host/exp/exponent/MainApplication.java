@@ -32,8 +32,8 @@ public class MainApplication extends ExpoApplication implements AppLoaderPackage
       // com.facebook.react.modules.timepicker.TimePickerDialogModule"
       packages.remove(0);
     }
-    packages.add(new RNFirebaseMessagingPackage());
-    packages.add(new RNFirebaseNotificationsPackage());
+    // packages.add(new RNFirebaseMessagingPackage());
+    // packages.add(new RNFirebaseNotificationsPackage());
     return packages;
   }
 
