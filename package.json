@@ -1,11 +1,8 @@
 {
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
-    "start": "npx jetify && expo start",
-    "android": "npx jetify && expo start --android",
-    "ios": "expo start --ios",
-    "web": "expo start --web",
-    "eject": "expo eject"
+    "android": "npx jetify && react-native run-android",
+    "ios": "react-native run-ios"
   },
   "dependencies": {
     "expo": "~36.0.0",
